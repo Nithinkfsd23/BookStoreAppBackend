@@ -6,7 +6,7 @@ router.use(express.json());
 router.use(express.urlencoded({ extended: true }));
 const jwt = require('jsonwebtoken');
 const adm= require("../authz/adm")
-// Get all book data
+// Get all book data    
 router.get('/getbdata', async (req, res) => {
     try {
         const data = await bookData.find();
