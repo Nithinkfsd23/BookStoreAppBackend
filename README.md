@@ -2,4 +2,4 @@
 
 
 
-for hosting purpose
+for hosting purpose via render and netlify
